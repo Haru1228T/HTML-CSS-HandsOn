@@ -7,24 +7,90 @@
   <meta name="description" content="自己紹介サイトです。" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- CSSファイルの適用 -->
-  
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
   <div class="page-wrapper">
     <!-- ヘッダー -->
+     <header class="header">
+      <img class="header-logo" src="img/logo.png">
+      <nav>
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#articles">Articles</a></li>
+        </ul>
+      </nav>
+     </header>
 
     <main class="main-content">
       <!-- メインビジュアル -->
-
+       <img class="main-visual" src="img/main_visual.jpg" alt="メインビジュアル">
       <!-- プロフィール セクション -->
+       <section class="section" id="profile">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile">
+          <img class="profile-image" src="img/profile.png" alt="プロフィール画像"> 
+          <!-- alt追記 -->
+          <div class="profile-info">
+            <h3>HARUKA TAKAMURA</h3>
+            <p>
+              出身：北海道<br>
+              趣味：カラオケ、ピラティス<br>
+              技術：Python、Flutter<br>
+              主な仕事：フロントエンド開発<br>
+            </p>
+          </div>
+        </div>
+       </section>
 
       <!-- 記事 セクション -->
-
+       <section class="section" id="articles">
+        <h2 class="section-title">Articles</h2>
+        <div class="articles">
+          <article class="article">
+            <img class="articles-image" src="img/article.jpg">
+            <h3>記事のタイトル</h3>
+            <p>
+              こんな記事を書きました。こんな記事を書きました。<br>
+              こんな記事を書きました。こんな記事を書きました。
+            </p>
+          </article>
+        
+          <article class="article">
+            <img class="articles-image"  src="img/article.jpg">
+            <h3>記事のタイトル</h3>
+            <p>
+              こんな記事を書きました。こんな記事を書きました。<br>
+              こんな記事を書きました。こんな記事を書きました。
+            </p>        
+          </article>
+        
+          <article class="article">
+            <img class="articles-image"  src="img/article.jpg">
+            <h3>記事のタイトル</h3>
+            <p>
+              こんな記事を書きました。こんな記事を書きました。<br>
+              こんな記事を書きました。こんな記事を書きました。
+            </p>    
+          </article>
+        
+          <article class="article">
+            <img class="articles-image" src="img/article.jpg">
+            <h3>記事のタイトル</h3>
+            <p>
+              こんな記事を書きました。こんな記事を書きました。<br>
+              こんな記事を書きました。こんな記事を書きました。
+            </p>    
+          </article>
+        </div>
+      </section>
     </main>
 
     <!-- フッター -->
-
+    <footer class="footer">
+      <p>&copy; 2025 Profile</p>
+    </footer>
   </div>
 </body>
 
